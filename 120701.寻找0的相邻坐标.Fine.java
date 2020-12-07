@@ -28,7 +28,7 @@ public class FineZero {
 		for (int y = 0; y < array2d.length; y++) {
 			for (int x = 0; x < array2d.length; x++) {
 				if (array2d[x][y]==0) {
-					System.out.println("R_right("+(y+1)+","+(x)+")");
+					System.out.println("R_right("+(y+1)+","+x+")");
 				}
 			}
 		}
